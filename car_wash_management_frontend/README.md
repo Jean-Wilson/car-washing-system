@@ -12,11 +12,14 @@ A responsive frontend starter for managing a car wash business.
 - Browser localStorage persistence (data remains in the same browser)
 
 ## Run the project
-1. Extract the ZIP file.
-2. Open the `car_wash_management_frontend` folder.
-3. Double-click `index.html` to open it in a browser.
+Install dependencies once from the repository root, then start the Vite development server:
 
-For a better development workflow, open the folder in VS Code and use the **Live Server** extension.
+```sh
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite (usually `http://localhost:5173`).
 
 ## Run with Docker
 From the repository root, build and start the frontend:
@@ -32,8 +35,10 @@ Then open `http://localhost:8080`.
 ```text
 car_wash_management_frontend/
 ├── index.html
+├── src/
+│   ├── App.jsx
+│   └── main.jsx
 ├── styles.css
-├── app.js
 └── README.md
 ```
 
