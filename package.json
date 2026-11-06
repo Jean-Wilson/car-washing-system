@@ -1,0 +1,17 @@
+{
+  "name": "car-wash-management-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite car_wash_management_frontend",
+    "build": "vite build car_wash_management_frontend"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

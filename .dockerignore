@@ -1,2 +1,5 @@
 .git
 .vscode
+node_modules
+car_wash_management_frontend/node_modules
+car_wash_management_frontend/dist
